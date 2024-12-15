@@ -1,4 +1,4 @@
-const result = document.getElementById("output");
+const result = document.getElementById("display");
 const btn = document.querySelectorAll(".btn");
 
 for(item of btn){
