@@ -5,22 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scientific_calculator</title>
     <link type="image/png" sizes="16x16" rel="icon" href="https://img.icons8.com/doodle/48/apple-calculator.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
    <script src="script.js"></script>
     <section>
         <div class="container">
             <div class="calculator">
-                <input type="text" class="display" id="display" disabled>
+                <input type="text" class="display" id="display" placeholder="0" readonly>
                 <!-- Button -->
                  <button onclick="power()">x<sup>2</sup></button>
                  <button onclick="pi()">π</button>
                  <button onclick="exp()">e</button>
                  <button class="ac_button" onclick="allClrear()">C</button>
-                 <button class="ac_button" onclick="delLastChar()">
-                    <img width="25" height="25" src="https://img.icons8.com/ios/50/delete-key.png" alt="delete-key"/>
-                 </button>
+                 <button class="ac_button" onclick="delLastChar()">Del</button>
                  <button onclick="fact()">x!</button>
                  <button onclick="sqrt()">√</button>
                  <button class="btn">(</button>
