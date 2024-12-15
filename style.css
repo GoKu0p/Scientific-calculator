@@ -4,7 +4,8 @@
     font-family: sans-serif;
     outline: none;
     background-color: #e8f5fc;
-    color: #59acdb;
+    color: #699ab6;
+
     padding: 0%;
     justify-content: center;
     align-items: center;
@@ -15,7 +16,10 @@ span{
     background-color: #e8f5fc;
     color: #699ab6;
 
+
 }
+
+
 
 .container{
     height: 100vh;
@@ -28,37 +32,37 @@ span{
     padding: 15px;
     border-radius: 30px;
     display: grid;
-    background-color: #e8f5fc;
-    box-shadow: 6px 6px 10px rgba(164, 216, 243, 0.5),
-    -6px -6px -10px rgba(255, 255, 255, 0.6);
+    background-color: #699ab6
+    box-shadow: inset 6px 6px 30px rgba(164, 216, 300, 1.0),
+    inset -16px -16px -30px rgba(255, 255, 320, 1.6);
     grid-template-columns: repeat(5,70px);
-
 }
+
 
 input{
     grid-column: span 5;
-    height: 70px;
-    width: 20px;
-    background-color: #e8f5fc;
-    box-shadow: inset 6px 6px 10px rgba(164, 216, 243, 0.5),
-    inset -6px -6px -10px rgba(255, 255, 255, 0.6);
+    height: 80px;
+    width: 20rem;
+    background-color: #dff1fb;
+    box-shadow: inset 16px 16px 30px rgba(164, 216, 300, 1.0),
+    inset -16px -16px -30px rgba(255, 255, 255, 1.6);
     border: none;
     border-radius: 30px;
     color: rgb(70, 70, 70);
     font-size: 28px;
     text-align: end;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 30;
     padding: 15px;
 
 }
 
 button{
-    height: 48px;
-    width: 48px;
+    height: 45px;
+    width: 45px;
     background-color: #e8f5fc;
-    box-shadow: 6px 6px 10px rgba(164, 216, 243, 0.5),
+    box-shadow: 16px 6px 10px rgba(106, 133, 148, 0.5),
     inset -6px -6px -10px rgba(255, 255, 255, 0.6);
     border: none;
     border-radius: 20px;
@@ -122,7 +126,7 @@ footer{
     width: 100%;
     height: auto;
     font-family: sans-serif;
-    padding: 20px;
+    padding: 30px;
     background-color: #e8f5fc;
     box-shadow: 6px 6px 10px rgba(164, 216, 243, 0.5),
     -6px -6px -10px rgba(255, 255, 255, 0.6);
